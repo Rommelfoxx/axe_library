@@ -17,4 +17,4 @@ Cenario 1 - Abrir e validar o site da Riachuelo
     #Quando
     avaliar a acessibilidade da pagina
     #Então
-    #Será apresentada os resultados 
+    o resultado deverá nao apresentar problemas de acessibilidade

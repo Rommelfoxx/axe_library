@@ -5133,240 +5133,6 @@
                     "any": [
                         {
                             "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 12.71,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#261e1e",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has sufficient color contrast of 12.71",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<p>",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        ".retire-em-loja > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 16.36,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#000000",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has sufficient color contrast of 16.36",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"https://contaonline.midwayfinanceira.com.br/contaonline/consulta-boleto?utm_source=home&amp;utm_medium=click&amp;utm_campaign=boletosmidway\" title=\"Ir para Site Externo da Midway Financeira\" target=\"_blank\">Clique aqui</a>",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        ".retire-em-loja > p > a[target=\"_blank\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 12.71,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#261e1e",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has sufficient color contrast of 12.71",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<p>Solicite seu <span class=\"destaque-verde\">EMPR\u00c9STIMO</span> PESSOAL <a href=\"https://www.midway.com.br/emprestimos\" target=\"_blank\" title=\"Ir para Cart\u00e3o Midway\"> <b>aqui.</b></a> </p>",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        ".cartao-rchlo > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 16.36,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#000000",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has sufficient color contrast of 16.36",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<b>aqui.</b>",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        "a[title=\"Ir\\ para\\ Cart\u00e3o\\ Midway\"] > b"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 12.71,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#261e1e",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has sufficient color contrast of 12.71",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<p>\n            <a href=\"https://www.riachuelo.com.br/promocoes/regulamentos#frete-cartao\" title=\"Ir para Promo\u00e7\u00e3o\"><spam id=\"verde-font\"><b>FRETE GR\u00c1TIS*</b></spam></a> Retire em loja\n        </p>",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        ".login > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 12.71,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#261e1e",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "normal",
-                                "missingData": "shortTextContent"
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has sufficient color contrast of 12.71",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<p><spam id=\"verde-font\"><b>Trocas e devolu\u00e7\u00f5es</b></spam>, <a href=\"/trocas-e-devolucoes\" title=\"Ver condi\u00e7\u00f5es de troca\">clique aqui.</a></p>",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        ".troca-gratis > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 16.36,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#000000",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has sufficient color contrast of 16.36",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"/trocas-e-devolucoes\" title=\"Ver condi\u00e7\u00f5es de troca\">clique aqui.</a>",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        "a[href$=\"trocas-e-devolucoes\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 16.36,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#000000",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has sufficient color contrast of 16.36",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"https://wa.me/558007723555\" target=\"_blank\" title=\"Abrir whatsapp\">Fale com a Hel\u00f4 via <spam id=\"verde-font\"><b>Whatsapp</b></spam> pelo <strong>800-772-3555</strong>.</a>",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        "a[title=\"Abrir\\ whatsapp\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 16.36,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#000000",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has sufficient color contrast of 16.36",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<strong>800-772-3555</strong>",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        "strong"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
                                 "bgColor": "#ffffff",
                                 "contrastRatio": 16.31,
                                 "expectedContrastRatio": "4.5:1",
@@ -6606,42 +6372,6 @@
                     "all": [],
                     "any": [
                         {
-                            "data": "f-faixa-frete",
-                            "id": "duplicate-id",
-                            "impact": "minor",
-                            "message": "Document has no static elements that share the same id attribute",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<div id=\"f-faixa-frete\" class=\"owl-carousel owl-loaded owl-drag\">",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        "#f-faixa-frete"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": "carousel__information",
-                            "id": "duplicate-id",
-                            "impact": "minor",
-                            "message": "Document has no static elements that share the same id attribute",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<div id=\"carousel__information\" class=\"container__information owl-carousel owl-theme no-carousel\">",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        "#carousel__information"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
                             "data": "mybutton",
                             "id": "duplicate-id",
                             "impact": "minor",
@@ -6696,42 +6426,6 @@
                     "all": [],
                     "any": [
                         {
-                            "data": "batBeacon96736769316",
-                            "id": "duplicate-id",
-                            "impact": "minor",
-                            "message": "Document has no static elements that share the same id attribute",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<div style=\"width:0px; height:0px; display:none; visibility:hidden;\" id=\"batBeacon96736769316\">",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        "#batBeacon96736769316"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": "batBeacon493765217928",
-                            "id": "duplicate-id",
-                            "impact": "minor",
-                            "message": "Document has no static elements that share the same id attribute",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<img style=\"width:0px; height:0px; display:none; visibility:hidden;\" id=\"batBeacon493765217928\" width=\"0\" height=\"0\" alt=\"\" src=\"https://bat.bing.com/action/0?ti=5712556&amp;tm=gtm002&amp;Ver=2&amp;mid=79a87c78-5028-4c63-a712-35abd10b827e&amp;sid=6c640e50d61d11ec910885c1c80e3121&amp;vid=6c6427a0d61d11ec8a6ccb8c1385bac3&amp;vids=1&amp;page_path=%2F&amp;spa=Y&amp;r=&amp;lt=undefined&amp;p=https%3A%2F%2Fwww.riachuelo.com.br%2F&amp;pi=1200101525&amp;lg=pt-BR&amp;sw=1280&amp;sh=720&amp;sc=24&amp;tl=Riachuelo%20%7C%20Moda%20Feminina,%20Masculina%20e%20Casa%20Do%20Seu%20Jeito&amp;kw=Renove%20seu%20guarda%20roupa,roupas%20femininas,comprar%20roupas,roupas%20da%20moda,moda%20feminina,seguro%20e%20pr%C3%A1tico,moda%20dia%20a%20dia,moda%20masculina,moda%20feminina,moda%20infantil,eletr%C3%B4nicos,moda%20geek,moda%20plus%20size&amp;evt=pageLoad&amp;msclkid=N&amp;sv=1&amp;rn=376932\">",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        "#batBeacon493765217928"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
                             "data": "__next-route-announcer__",
                             "id": "duplicate-id",
                             "impact": "minor",
@@ -6762,6 +6456,42 @@
                     "none": [],
                     "target": [
                         "#handtalk-script"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "batBeacon558151225548",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div style=\"width:0px; height:0px; display:none; visibility:hidden;\" id=\"batBeacon558151225548\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#batBeacon558151225548"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "batBeacon442316455665",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<img style=\"width:0px; height:0px; display:none; visibility:hidden;\" id=\"batBeacon442316455665\" width=\"0\" height=\"0\" alt=\"\" src=\"https://bat.bing.com/action/0?ti=5712556&amp;tm=gtm002&amp;Ver=2&amp;mid=62bb610d-46a0-4ee4-b31c-c9bd603c79c3&amp;sid=0f2eea00d6e111ec9f7e63fc577406a2&amp;vid=0f2f5560d6e111ec8461ab368fb6754a&amp;vids=1&amp;page_path=%2F&amp;spa=Y&amp;r=&amp;lt=2367&amp;p=https%3A%2F%2Fwww.riachuelo.com.br%2F&amp;pi=1200101525&amp;lg=pt-BR&amp;sw=1280&amp;sh=720&amp;sc=24&amp;tl=Riachuelo%20%7C%20Moda%20Feminina,%20Masculina%20e%20Casa%20Do%20Seu%20Jeito&amp;kw=Renove%20seu%20guarda%20roupa,roupas%20femininas,comprar%20roupas,roupas%20da%20moda,moda%20feminina,seguro%20e%20pr%C3%A1tico,moda%20dia%20a%20dia,moda%20masculina,moda%20feminina,moda%20infantil,eletr%C3%B4nicos,moda%20geek,moda%20plus%20size&amp;evt=pageLoad&amp;msclkid=N&amp;sv=1&amp;rn=217134\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#batBeacon442316455665"
                     ]
                 },
                 {
@@ -7484,7 +7214,7 @@
                     "impact": null,
                     "none": [],
                     "target": [
-                        "div:nth-child(20) > a[target=\"blank\"] > img[title=\"Compre\\ pelo\\ WhatsApp\"][alt=\"Comprar\\ no\\ WhatsApp\"]"
+                        "div:nth-child(23) > a[target=\"blank\"] > img[title=\"Compre\\ pelo\\ WhatsApp\"][alt=\"Comprar\\ no\\ WhatsApp\"]"
                     ]
                 },
                 {
@@ -7509,7 +7239,7 @@
                     "impact": null,
                     "none": [],
                     "target": [
-                        "div:nth-child(30) > a[target=\"blank\"] > img[title=\"Compre\\ pelo\\ WhatsApp\"][alt=\"Comprar\\ no\\ WhatsApp\"]"
+                        "div:nth-child(29) > a[target=\"blank\"] > img[title=\"Compre\\ pelo\\ WhatsApp\"][alt=\"Comprar\\ no\\ WhatsApp\"]"
                     ]
                 }
             ],
@@ -7909,222 +7639,6 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cloned.owl-item:nth-child(1) > .f-bg-faixa.f-bg-faixa-2 > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#frete-riachu\" title=\"Ir para Regulamentos - Frete gr\u00e1tis normal para loja online Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cloned.owl-item:nth-child(1) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<p><spam id=\"verde-font\"> <b>GANHE 10% OFF</b></spam> utilizando o cupom <b id=\"verde-font\">TODOSITE10 </b><a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a></p>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cloned.owl-item:nth-child(2) > .f-bg-faixa.f-bg-faixa-2 > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cloned.owl-item:nth-child(2) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<p>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".active > .f-bg-faixa.f-bg-faixa-2 > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#frete-riachu\" title=\"Ir para Regulamentos - Frete gr\u00e1tis normal para loja online Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".active > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<p><spam id=\"verde-font\"> <b>GANHE 10% OFF</b></spam> utilizando o cupom <b id=\"verde-font\">TODOSITE10 </b><a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a></p>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2 > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<p>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2 > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#frete-riachu\" title=\"Ir para Regulamentos - Frete gr\u00e1tis normal para loja online Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<p><spam id=\"verde-font\"> <b>GANHE 10% OFF</b></spam> utilizando o cupom <b id=\"verde-font\">TODOSITE10 </b><a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a></p>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2 > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
                     "html": "<li class=\"jss82\"><span class=\"MuiSkeleton-root MuiSkeleton-circle MuiSkeleton-pulse\" style=\"width:90px;height:90px\"></span></li>",
                     "impact": null,
                     "none": [
@@ -8192,186 +7706,6 @@
                     ],
                     "target": [
                         ".jss82:nth-child(4)"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<p>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".retire-em-loja > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<a href=\"https://contaonline.midwayfinanceira.com.br/contaonline/consulta-boleto?utm_source=home&amp;utm_medium=click&amp;utm_campaign=boletosmidway\" title=\"Ir para Site Externo da Midway Financeira\" target=\"_blank\">Clique aqui</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".retire-em-loja > p > a[target=\"_blank\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<p>Solicite seu <span class=\"destaque-verde\">EMPR\u00c9STIMO</span> PESSOAL <a href=\"https://www.midway.com.br/emprestimos\" target=\"_blank\" title=\"Ir para Cart\u00e3o Midway\"> <b>aqui.</b></a> </p>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cartao-rchlo > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<a href=\"https://www.midway.com.br/emprestimos\" target=\"_blank\" title=\"Ir para Cart\u00e3o Midway\"> <b>aqui.</b></a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        "a[title=\"Ir\\ para\\ Cart\u00e3o\\ Midway\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<p>\n            <a href=\"https://www.riachuelo.com.br/promocoes/regulamentos#frete-cartao\" title=\"Ir para Promo\u00e7\u00e3o\"><spam id=\"verde-font\"><b>FRETE GR\u00c1TIS*</b></spam></a> Retire em loja\n        </p>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".login > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<a href=\"https://www.riachuelo.com.br/promocoes/regulamentos#frete-cartao\" title=\"Ir para Promo\u00e7\u00e3o\"><spam id=\"verde-font\"><b>FRETE GR\u00c1TIS*</b></spam></a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        "a[title=\"Ir\\ para\\ Promo\u00e7\u00e3o\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<p><spam id=\"verde-font\"><b>Trocas e devolu\u00e7\u00f5es</b></spam>, <a href=\"/trocas-e-devolucoes\" title=\"Ver condi\u00e7\u00f5es de troca\">clique aqui.</a></p>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".troca-gratis > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<a href=\"/trocas-e-devolucoes\" title=\"Ver condi\u00e7\u00f5es de troca\">clique aqui.</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        "a[href$=\"trocas-e-devolucoes\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<p><a href=\"https://wa.me/558007723555\" target=\"_blank\" title=\"Abrir whatsapp\">Fale com a Hel\u00f4 via <spam id=\"verde-font\"><b>Whatsapp</b></spam> pelo <strong>800-772-3555</strong>.</a></p>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".whatsapp > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<a href=\"https://wa.me/558007723555\" target=\"_blank\" title=\"Abrir whatsapp\">Fale com a Hel\u00f4 via <spam id=\"verde-font\"><b>Whatsapp</b></spam> pelo <strong>800-772-3555</strong>.</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        "a[title=\"Abrir\\ whatsapp\"]"
                     ]
                 },
                 {
@@ -9349,42 +8683,6 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<a id=\"whatsapp-chat-open-iframe\" href=\"https://api.whatsapp.com/send/?phone=558007723555&amp;text=Oi%2C+estou+no+site+e+preciso+de+atendimento.&amp;app_absent=0\" target=\"blank\">",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        "div:nth-child(20) > a[target=\"blank\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
-                    "html": "<a id=\"whatsapp-chat-open-iframe\" href=\"https://api.whatsapp.com/send/?phone=558007723555&amp;text=Oi%2C+estou+no+site+e+preciso+de+atendimento.&amp;app_absent=0\" target=\"blank\">",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "duplicate-img-label",
-                            "impact": "minor",
-                            "message": "Element does not duplicate existing text in <img> alt text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        "div:nth-child(30) > a[target=\"blank\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [],
                     "html": "<p aria-live=\"assertive\" id=\"__next-route-announcer__\" role=\"alert\" style=\"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;\"></p>",
                     "impact": null,
                     "none": [
@@ -9398,6 +8696,42 @@
                     ],
                     "target": [
                         "#__next-route-announcer__"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a id=\"whatsapp-chat-open-iframe\" href=\"https://api.whatsapp.com/send/?phone=558007723555&amp;text=Oi%2C+estou+no+site+e+preciso+de+atendimento.&amp;app_absent=0\" target=\"blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "div:nth-child(23) > a[target=\"blank\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a id=\"whatsapp-chat-open-iframe\" href=\"https://api.whatsapp.com/send/?phone=558007723555&amp;text=Oi%2C+estou+no+site+e+preciso+de+atendimento.&amp;app_absent=0\" target=\"blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "div:nth-child(29) > a[target=\"blank\"]"
                     ]
                 }
             ],
@@ -9986,292 +9320,6 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#frete-riachu\" title=\"Ir para Regulamentos - Frete gr\u00e1tis normal para loja online Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "focusable-no-name",
-                            "impact": "serious",
-                            "message": "Element is not in tab order or has accessible text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cloned.owl-item:nth-child(1) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": null,
-                            "id": "has-visible-text",
-                            "impact": "minor",
-                            "message": "Element has text that is visible to screen readers",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "focusable-no-name",
-                            "impact": "serious",
-                            "message": "Element is not in tab order or has accessible text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cloned.owl-item:nth-child(2) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": null,
-                            "id": "has-visible-text",
-                            "impact": "minor",
-                            "message": "Element has text that is visible to screen readers",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#frete-riachu\" title=\"Ir para Regulamentos - Frete gr\u00e1tis normal para loja online Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "focusable-no-name",
-                            "impact": "serious",
-                            "message": "Element is not in tab order or has accessible text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".active > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": null,
-                            "id": "has-visible-text",
-                            "impact": "minor",
-                            "message": "Element has text that is visible to screen readers",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "focusable-no-name",
-                            "impact": "serious",
-                            "message": "Element is not in tab order or has accessible text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": null,
-                            "id": "has-visible-text",
-                            "impact": "minor",
-                            "message": "Element has text that is visible to screen readers",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#frete-riachu\" title=\"Ir para Regulamentos - Frete gr\u00e1tis normal para loja online Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "focusable-no-name",
-                            "impact": "serious",
-                            "message": "Element is not in tab order or has accessible text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": null,
-                            "id": "has-visible-text",
-                            "impact": "minor",
-                            "message": "Element has text that is visible to screen readers",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "focusable-no-name",
-                            "impact": "serious",
-                            "message": "Element is not in tab order or has accessible text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": null,
-                            "id": "has-visible-text",
-                            "impact": "minor",
-                            "message": "Element has text that is visible to screen readers",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"https://contaonline.midwayfinanceira.com.br/contaonline/consulta-boleto?utm_source=home&amp;utm_medium=click&amp;utm_campaign=boletosmidway\" title=\"Ir para Site Externo da Midway Financeira\" target=\"_blank\">Clique aqui</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "focusable-no-name",
-                            "impact": "serious",
-                            "message": "Element is not in tab order or has accessible text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".retire-em-loja > p > a[target=\"_blank\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": null,
-                            "id": "has-visible-text",
-                            "impact": "minor",
-                            "message": "Element has text that is visible to screen readers",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"https://www.midway.com.br/emprestimos\" target=\"_blank\" title=\"Ir para Cart\u00e3o Midway\"> <b>aqui.</b></a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "focusable-no-name",
-                            "impact": "serious",
-                            "message": "Element is not in tab order or has accessible text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        "a[title=\"Ir\\ para\\ Cart\u00e3o\\ Midway\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": null,
-                            "id": "has-visible-text",
-                            "impact": "minor",
-                            "message": "Element has text that is visible to screen readers",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"https://www.riachuelo.com.br/promocoes/regulamentos#frete-cartao\" title=\"Ir para Promo\u00e7\u00e3o\"><spam id=\"verde-font\"><b>FRETE GR\u00c1TIS*</b></spam></a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "focusable-no-name",
-                            "impact": "serious",
-                            "message": "Element is not in tab order or has accessible text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        "a[title=\"Ir\\ para\\ Promo\u00e7\u00e3o\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": null,
-                            "id": "has-visible-text",
-                            "impact": "minor",
-                            "message": "Element has text that is visible to screen readers",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"/trocas-e-devolucoes\" title=\"Ver condi\u00e7\u00f5es de troca\">clique aqui.</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "focusable-no-name",
-                            "impact": "serious",
-                            "message": "Element is not in tab order or has accessible text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        "a[href$=\"trocas-e-devolucoes\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": null,
-                            "id": "has-visible-text",
-                            "impact": "minor",
-                            "message": "Element has text that is visible to screen readers",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a href=\"https://wa.me/558007723555\" target=\"_blank\" title=\"Abrir whatsapp\">Fale com a Hel\u00f4 via <spam id=\"verde-font\"><b>Whatsapp</b></spam> pelo <strong>800-772-3555</strong>.</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "focusable-no-name",
-                            "impact": "serious",
-                            "message": "Element is not in tab order or has accessible text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        "a[title=\"Abrir\\ whatsapp\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": null,
-                            "id": "has-visible-text",
-                            "impact": "minor",
-                            "message": "Element has text that is visible to screen readers",
-                            "relatedNodes": []
-                        }
-                    ],
                     "html": "<a class=\"MuiTypography-root MuiLink-root MuiLink-underlineHover jss143 MuiTypography-colorPrimary\" href=\"https://www.riachuelo.com.br/blogging/central-de-atendimento/\" target=\"_blank\">",
                     "impact": null,
                     "none": [
@@ -10466,7 +9514,7 @@
                         }
                     ],
                     "target": [
-                        "div:nth-child(20) > a[target=\"blank\"]"
+                        "div:nth-child(23) > a[target=\"blank\"]"
                     ]
                 },
                 {
@@ -10492,7 +9540,7 @@
                         }
                     ],
                     "target": [
-                        "div:nth-child(30) > a[target=\"blank\"]"
+                        "div:nth-child(29) > a[target=\"blank\"]"
                     ]
                 }
             ],
@@ -11059,7 +10107,7 @@
                     "impact": null,
                     "none": [],
                     "target": [
-                        "meta[name=\"viewport\"]:nth-child(38)"
+                        "meta[name=\"viewport\"]:nth-child(39)"
                     ]
                 }
             ],
@@ -11108,7 +10156,7 @@
                     "impact": null,
                     "none": [],
                     "target": [
-                        "meta[name=\"viewport\"]:nth-child(38)"
+                        "meta[name=\"viewport\"]:nth-child(39)"
                     ]
                 }
             ],
@@ -11386,7 +10434,7 @@
             ]
         }
     ],
-    "timestamp": "2022-05-17T20:11:14.437Z",
+    "timestamp": "2022-05-18T19:31:08.159Z",
     "url": "https://www.riachuelo.com.br/",
     "violations": [
         {
@@ -11646,48 +10694,6 @@
                     "none": [],
                     "target": [
                         ".jss73"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": [
-                                "presentation"
-                            ],
-                            "id": "aria-allowed-role",
-                            "impact": "minor",
-                            "message": "role presentation  is not allowed for given element",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  role presentation  is not allowed for given element",
-                    "html": "<button type=\"button\" role=\"presentation\" class=\"owl-prev\"><span aria-label=\"Previous\">\u2039</span></button>",
-                    "impact": "minor",
-                    "none": [],
-                    "target": [
-                        ".owl-prev"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": [
-                                "presentation"
-                            ],
-                            "id": "aria-allowed-role",
-                            "impact": "minor",
-                            "message": "role presentation  is not allowed for given element",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  role presentation  is not allowed for given element",
-                    "html": "<button type=\"button\" role=\"presentation\" class=\"owl-next\"><span aria-label=\"Next\">\u203a</span></button>",
-                    "impact": "minor",
-                    "none": [],
-                    "target": [
-                        ".owl-next"
                     ]
                 },
                 {
@@ -12265,768 +11271,6 @@
             ]
         },
         {
-            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-            "help": "Elements must have sufficient color contrast",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI",
-            "id": "color-contrast",
-            "impact": "serious",
-            "nodes": [
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 3.74,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#727272",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".active > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                    "html": "<p>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".active > .f-bg-faixa.f-bg-faixa-2 > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.73,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#0d9f0b",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".active > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<b>FRETE GR\u00c1TIS*</b>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".active > .f-bg-faixa.f-bg-faixa-2 > p > spam:nth-child(1) > b"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.73,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#0d9f0b",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".active > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<b>FRETE GR\u00c1TIS* </b>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".active > .f-bg-faixa.f-bg-faixa-2 > p > spam:nth-child(2) > b"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 3.74,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#727272",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".active > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#frete-riachu\" title=\"Ir para Regulamentos - Frete gr\u00e1tis normal para loja online Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".active > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 3.74,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#727272",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                    "html": "<p><spam id=\"verde-font\"> <b>GANHE 10% OFF</b></spam> utilizando o cupom <b id=\"verde-font\">TODOSITE10 </b><a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a></p>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2 > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.73,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#0d9f0b",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<b>GANHE 10% OFF</b>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2 > p > spam > b"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.73,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#0d9f0b",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<b id=\"verde-font\">TODOSITE10 </b>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2 > p > b"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 3.74,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#727272",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 3.74,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#727272",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                    "html": "<p>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2 > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.73,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#0d9f0b",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<b>FRETE GR\u00c1TIS*</b>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2 > p > spam:nth-child(1) > b"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.73,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#0d9f0b",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<b>FRETE GR\u00c1TIS* </b>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2 > p > spam:nth-child(2) > b"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 3.74,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#727272",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#frete-riachu\" title=\"Ir para Regulamentos - Frete gr\u00e1tis normal para loja online Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 3.74,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#727272",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                    "html": "<p><spam id=\"verde-font\"> <b>GANHE 10% OFF</b></spam> utilizando o cupom <b id=\"verde-font\">TODOSITE10 </b><a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a></p>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2 > p"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.73,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#0d9f0b",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<b>GANHE 10% OFF</b>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2 > p > spam > b"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.73,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#0d9f0b",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<b id=\"verde-font\">TODOSITE10 </b>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2 > p > b"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 3.74,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#727272",
-                                "fontSize": "10.5pt",
-                                "fontWeight": "normal",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div class=\"f-bg-faixa f-bg-faixa-2\">",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
-                    "html": "<a href=\"https://blog.riachuelo.com.br/promocoes-e-regulamentos/#todosite10\" title=\"Ir para Regulamentos - Cupom TODOSITE10 com 10% OFF no Cart\u00e3o Riachuelo\">*Veja condi\u00e7\u00f5es</a>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2 > p > a"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.99,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#209630",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.99 (foreground color: #209630, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div id=\"carousel__information\" class=\"container__information owl-carousel owl-theme no-carousel\">",
-                                    "target": [
-                                        "#carousel__information"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #209630, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<span class=\"destaque-verde\">Fatura</span>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".destaque-verde:nth-child(2)"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.99,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#209630",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.99 (foreground color: #209630, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div id=\"carousel__information\" class=\"container__information owl-carousel owl-theme no-carousel\">",
-                                    "target": [
-                                        "#carousel__information"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #209630, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<span class=\"destaque-verde\">empr\u00e9stimos</span>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".destaque-verde:nth-child(3)"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.99,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#209630",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.99 (foreground color: #209630, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div id=\"carousel__information\" class=\"container__information owl-carousel owl-theme no-carousel\">",
-                                    "target": [
-                                        "#carousel__information"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #209630, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<span class=\"destaque-verde\">EMPR\u00c9STIMO</span>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".cartao-rchlo > p > .destaque-verde"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.73,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#0d9f0b",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div id=\"carousel__information\" class=\"container__information owl-carousel owl-theme no-carousel\">",
-                                    "target": [
-                                        "#carousel__information"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<b>FRETE GR\u00c1TIS*</b>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        "a[title=\"Ir\\ para\\ Promo\u00e7\u00e3o\"] > spam > b"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.73,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#0d9f0b",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div id=\"carousel__information\" class=\"container__information owl-carousel owl-theme no-carousel\">",
-                                    "target": [
-                                        "#carousel__information"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<b>Trocas e devolu\u00e7\u00f5es</b>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".troca-gratis > p > spam > b"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": "#e3e3e3",
-                                "contrastRatio": 2.73,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#0d9f0b",
-                                "fontSize": "9.0pt",
-                                "fontWeight": "bold",
-                                "missingData": null
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                            "relatedNodes": [
-                                {
-                                    "html": "<div id=\"carousel__information\" class=\"container__information owl-carousel owl-theme no-carousel\">",
-                                    "target": [
-                                        "#carousel__information"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
-                    "html": "<b>Whatsapp</b>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        "a[title=\"Abrir\\ whatsapp\"] > spam > b"
-                    ]
-                }
-            ],
-            "tags": [
-                "cat.color",
-                "wcag2aa",
-                "wcag143"
-            ]
-        },
-        {
             "description": "Ensures every id attribute value of active elements is unique",
             "help": "IDs of active elements must be unique",
             "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/duplicate-id-active?application=axeAPI",
@@ -13045,7 +11289,7 @@
                                 {
                                     "html": "<a id=\"whatsapp-chat-open-iframe\" href=\"https://api.whatsapp.com/send/?phone=558007723555&amp;text=Oi%2C+estou+no+site+e+preciso+de+atendimento.&amp;app_absent=0\" target=\"blank\">",
                                     "target": [
-                                        "div:nth-child(30) > a[target=\"blank\"]"
+                                        "div:nth-child(29) > a[target=\"blank\"]"
                                     ]
                                 }
                             ]
@@ -13056,7 +11300,7 @@
                     "impact": "serious",
                     "none": [],
                     "target": [
-                        "div:nth-child(20) > a[target=\"blank\"]"
+                        "div:nth-child(23) > a[target=\"blank\"]"
                     ]
                 }
             ],
@@ -13077,110 +11321,6 @@
                     "all": [],
                     "any": [
                         {
-                            "data": "verde-font",
-                            "id": "duplicate-id",
-                            "impact": "minor",
-                            "message": "Document has multiple static elements with the same id attribute",
-                            "relatedNodes": [
-                                {
-                                    "html": "<spam id=\"verde-font\"><b>FRETE GR\u00c1TIS* </b></spam>",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(1) > .f-bg-faixa.f-bg-faixa-2 > p > spam:nth-child(2)"
-                                    ]
-                                },
-                                {
-                                    "html": "<spam id=\"verde-font\"> <b>GANHE 10% OFF</b></spam>",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(2) > .f-bg-faixa.f-bg-faixa-2 > p > spam"
-                                    ]
-                                },
-                                {
-                                    "html": "<b id=\"verde-font\">TODOSITE10 </b>",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(2) > .f-bg-faixa.f-bg-faixa-2 > p > b"
-                                    ]
-                                },
-                                {
-                                    "html": "<spam id=\"verde-font\"> <b>FRETE GR\u00c1TIS*</b></spam>",
-                                    "target": [
-                                        ".active > .f-bg-faixa.f-bg-faixa-2 > p > spam:nth-child(1)"
-                                    ]
-                                },
-                                {
-                                    "html": "<spam id=\"verde-font\"><b>FRETE GR\u00c1TIS* </b></spam>",
-                                    "target": [
-                                        ".active > .f-bg-faixa.f-bg-faixa-2 > p > spam:nth-child(2)"
-                                    ]
-                                },
-                                {
-                                    "html": "<spam id=\"verde-font\"> <b>GANHE 10% OFF</b></spam>",
-                                    "target": [
-                                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2 > p > spam"
-                                    ]
-                                },
-                                {
-                                    "html": "<b id=\"verde-font\">TODOSITE10 </b>",
-                                    "target": [
-                                        ".animated.owl-animated-in.fadeIn:nth-child(4) > .f-bg-faixa.f-bg-faixa-2 > p > b"
-                                    ]
-                                },
-                                {
-                                    "html": "<spam id=\"verde-font\"> <b>FRETE GR\u00c1TIS*</b></spam>",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2 > p > spam:nth-child(1)"
-                                    ]
-                                },
-                                {
-                                    "html": "<spam id=\"verde-font\"><b>FRETE GR\u00c1TIS* </b></spam>",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(5) > .f-bg-faixa.f-bg-faixa-2 > p > spam:nth-child(2)"
-                                    ]
-                                },
-                                {
-                                    "html": "<spam id=\"verde-font\"> <b>GANHE 10% OFF</b></spam>",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2 > p > spam"
-                                    ]
-                                },
-                                {
-                                    "html": "<b id=\"verde-font\">TODOSITE10 </b>",
-                                    "target": [
-                                        ".cloned.owl-item:nth-child(6) > .f-bg-faixa.f-bg-faixa-2 > p > b"
-                                    ]
-                                },
-                                {
-                                    "html": "<spam id=\"verde-font\"><b>FRETE GR\u00c1TIS*</b></spam>",
-                                    "target": [
-                                        "a[title=\"Ir\\ para\\ Promo\u00e7\u00e3o\"] > spam"
-                                    ]
-                                },
-                                {
-                                    "html": "<spam id=\"verde-font\"><b>Trocas e devolu\u00e7\u00f5es</b></spam>",
-                                    "target": [
-                                        ".troca-gratis > p > spam"
-                                    ]
-                                },
-                                {
-                                    "html": "<spam id=\"verde-font\"><b>Whatsapp</b></spam>",
-                                    "target": [
-                                        "a[title=\"Abrir\\ whatsapp\"] > spam"
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute",
-                    "html": "<spam id=\"verde-font\"> <b>FRETE GR\u00c1TIS*</b></spam>",
-                    "impact": "minor",
-                    "none": [],
-                    "target": [
-                        ".cloned.owl-item:nth-child(1) > .f-bg-faixa.f-bg-faixa-2 > p > spam:nth-child(1)"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
                             "data": "whatsapp-chat-container",
                             "id": "duplicate-id",
                             "impact": "minor",
@@ -13189,7 +11329,7 @@
                                 {
                                     "html": "<div id=\"whatsapp-chat-container\">",
                                     "target": [
-                                        "div:nth-child(30)"
+                                        "div:nth-child(29)"
                                     ]
                                 }
                             ]
@@ -13200,7 +11340,7 @@
                     "impact": "minor",
                     "none": [],
                     "target": [
-                        "div:nth-child(20)"
+                        "div:nth-child(23)"
                     ]
                 },
                 {
@@ -13215,7 +11355,7 @@
                                 {
                                     "html": "<div id=\"whatsapp-chat-notifications\"></div>",
                                     "target": [
-                                        "div:nth-child(30) > a[target=\"blank\"] > div"
+                                        "div:nth-child(29) > a[target=\"blank\"] > div"
                                     ]
                                 }
                             ]
@@ -13226,7 +11366,7 @@
                     "impact": "minor",
                     "none": [],
                     "target": [
-                        "div:nth-child(20) > a[target=\"blank\"] > div"
+                        "div:nth-child(23) > a[target=\"blank\"] > div"
                     ]
                 },
                 {
@@ -13241,7 +11381,7 @@
                                 {
                                     "html": "<img id=\"whatsapp-chat-icon\" title=\"Compre pelo WhatsApp\" alt=\"Comprar no WhatsApp\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSIjMDBFNjc2IiBkPSJNMTAuNyAzMi44bC42LjNjMi41IDEuNSA1LjMgMi4yIDguMSAyLjIgOC44IDAgMTYtNy4yIDE2LTE2IDAtNC4yLTEuNy04LjMtNC43LTExLjNzLTctNC43LTExLjMtNC43Yy04LjggMC0xNiA3LjItMTUuOSAxNi4xIDAgMyAuOSA1LjkgMi40IDguNGwuNC42LTEuNiA1LjkgNi0xLjV6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTMyLjQgNi40QzI5IDIuOSAyNC4zIDEgMTkuNSAxIDkuMyAxIDEuMSA5LjMgMS4yIDE5LjRjMCAzLjIuOSA2LjMgMi40IDkuMUwxIDM4bDkuNy0yLjVjMi43IDEuNSA1LjcgMi4yIDguNyAyLjIgMTAuMSAwIDE4LjMtOC4zIDE4LjMtMTguNCAwLTQuOS0xLjktOS41LTUuMy0xMi45ek0xOS41IDM0LjZjLTIuNyAwLTUuNC0uNy03LjctMi4xbC0uNi0uMy01LjggMS41TDYuOSAyOGwtLjQtLjZjLTQuNC03LjEtMi4zLTE2LjUgNC45LTIwLjlzMTYuNS0yLjMgMjAuOSA0LjkgMi4zIDE2LjUtNC45IDIwLjljLTIuMyAxLjUtNS4xIDIuMy03LjkgMi4zem04LjgtMTEuMWwtMS4xLS41cy0xLjYtLjctMi42LTEuMmMtLjEgMC0uMi0uMS0uMy0uMS0uMyAwLS41LjEtLjcuMiAwIDAtLjEuMS0xLjUgMS43LS4xLjItLjMuMy0uNS4zaC0uMWMtLjEgMC0uMy0uMS0uNC0uMmwtLjUtLjJjLTEuMS0uNS0yLjEtMS4xLTIuOS0xLjktLjItLjItLjUtLjQtLjctLjYtLjctLjctMS40LTEuNS0xLjktMi40bC0uMS0uMmMtLjEtLjEtLjEtLjItLjItLjQgMC0uMiAwLS40LjEtLjUgMCAwIC40LS41LjctLjguMi0uMi4zLS41LjUtLjcuMi0uMy4zLS43LjItMS0uMS0uNS0xLjMtMy4yLTEuNi0zLjgtLjItLjMtLjQtLjQtLjctLjVoLTEuMWMtLjIgMC0uNC4xLS42LjFsLS4xLjFjLS4yLjEtLjQuMy0uNi40LS4yLjItLjMuNC0uNS42LS43LjktMS4xIDItMS4xIDMuMSAwIC44LjIgMS42LjUgMi4zbC4xLjNjLjkgMS45IDIuMSAzLjYgMy43IDUuMWwuNC40Yy4zLjMuNi41LjguOCAyLjEgMS44IDQuNSAzLjEgNy4yIDMuOC4zLjEuNy4xIDEgLjJoMWMuNSAwIDEuMS0uMiAxLjUtLjQuMy0uMi41LS4yLjctLjRsLjItLjJjLjItLjIuNC0uMy42LS41cy40LS40LjUtLjZjLjItLjQuMy0uOS40LTEuNHYtLjdzLS4xLS4xLS4zLS4yeiI+PC9wYXRoPjwvc3ZnPg==\">",
                                     "target": [
-                                        "div:nth-child(30) > a[target=\"blank\"] > img[title=\"Compre\\ pelo\\ WhatsApp\"][alt=\"Comprar\\ no\\ WhatsApp\"]"
+                                        "div:nth-child(29) > a[target=\"blank\"] > img[title=\"Compre\\ pelo\\ WhatsApp\"][alt=\"Comprar\\ no\\ WhatsApp\"]"
                                     ]
                                 }
                             ]
@@ -13252,7 +11392,7 @@
                     "impact": "minor",
                     "none": [],
                     "target": [
-                        "div:nth-child(20) > a[target=\"blank\"] > img[title=\"Compre\\ pelo\\ WhatsApp\"][alt=\"Comprar\\ no\\ WhatsApp\"]"
+                        "div:nth-child(23) > a[target=\"blank\"] > img[title=\"Compre\\ pelo\\ WhatsApp\"][alt=\"Comprar\\ no\\ WhatsApp\"]"
                     ]
                 }
             ],
@@ -13903,13 +12043,13 @@
                                 {
                                     "html": "<img id=\"whatsapp-chat-icon\" title=\"Compre pelo WhatsApp\" alt=\"Comprar no WhatsApp\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSIjMDBFNjc2IiBkPSJNMTAuNyAzMi44bC42LjNjMi41IDEuNSA1LjMgMi4yIDguMSAyLjIgOC44IDAgMTYtNy4yIDE2LTE2IDAtNC4yLTEuNy04LjMtNC43LTExLjNzLTctNC43LTExLjMtNC43Yy04LjggMC0xNiA3LjItMTUuOSAxNi4xIDAgMyAuOSA1LjkgMi40IDguNGwuNC42LTEuNiA1LjkgNi0xLjV6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTMyLjQgNi40QzI5IDIuOSAyNC4zIDEgMTkuNSAxIDkuMyAxIDEuMSA5LjMgMS4yIDE5LjRjMCAzLjIuOSA2LjMgMi40IDkuMUwxIDM4bDkuNy0yLjVjMi43IDEuNSA1LjcgMi4yIDguNyAyLjIgMTAuMSAwIDE4LjMtOC4zIDE4LjMtMTguNCAwLTQuOS0xLjktOS41LTUuMy0xMi45ek0xOS41IDM0LjZjLTIuNyAwLTUuNC0uNy03LjctMi4xbC0uNi0uMy01LjggMS41TDYuOSAyOGwtLjQtLjZjLTQuNC03LjEtMi4zLTE2LjUgNC45LTIwLjlzMTYuNS0yLjMgMjAuOSA0LjkgMi4zIDE2LjUtNC45IDIwLjljLTIuMyAxLjUtNS4xIDIuMy03LjkgMi4zem04LjgtMTEuMWwtMS4xLS41cy0xLjYtLjctMi42LTEuMmMtLjEgMC0uMi0uMS0uMy0uMS0uMyAwLS41LjEtLjcuMiAwIDAtLjEuMS0xLjUgMS43LS4xLjItLjMuMy0uNS4zaC0uMWMtLjEgMC0uMy0uMS0uNC0uMmwtLjUtLjJjLTEuMS0uNS0yLjEtMS4xLTIuOS0xLjktLjItLjItLjUtLjQtLjctLjYtLjctLjctMS40LTEuNS0xLjktMi40bC0uMS0uMmMtLjEtLjEtLjEtLjItLjItLjQgMC0uMiAwLS40LjEtLjUgMCAwIC40LS41LjctLjguMi0uMi4zLS41LjUtLjcuMi0uMy4zLS43LjItMS0uMS0uNS0xLjMtMy4yLTEuNi0zLjgtLjItLjMtLjQtLjQtLjctLjVoLTEuMWMtLjIgMC0uNC4xLS42LjFsLS4xLjFjLS4yLjEtLjQuMy0uNi40LS4yLjItLjMuNC0uNS42LS43LjktMS4xIDItMS4xIDMuMSAwIC44LjIgMS42LjUgMi4zbC4xLjNjLjkgMS45IDIuMSAzLjYgMy43IDUuMWwuNC40Yy4zLjMuNi41LjguOCAyLjEgMS44IDQuNSAzLjEgNy4yIDMuOC4zLjEuNy4xIDEgLjJoMWMuNSAwIDEuMS0uMiAxLjUtLjQuMy0uMi41LS4yLjctLjRsLjItLjJjLjItLjIuNC0uMy42LS41cy40LS40LjUtLjZjLjItLjQuMy0uOS40LTEuNHYtLjdzLS4xLS4xLS4zLS4yeiI+PC9wYXRoPjwvc3ZnPg==\">",
                                     "target": [
-                                        "div:nth-child(20) > a[target=\"blank\"] > img[title=\"Compre\\ pelo\\ WhatsApp\"][alt=\"Comprar\\ no\\ WhatsApp\"]"
+                                        "div:nth-child(23) > a[target=\"blank\"] > img[title=\"Compre\\ pelo\\ WhatsApp\"][alt=\"Comprar\\ no\\ WhatsApp\"]"
                                     ]
                                 },
                                 {
                                     "html": "<img id=\"whatsapp-chat-icon\" title=\"Compre pelo WhatsApp\" alt=\"Comprar no WhatsApp\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSIjMDBFNjc2IiBkPSJNMTAuNyAzMi44bC42LjNjMi41IDEuNSA1LjMgMi4yIDguMSAyLjIgOC44IDAgMTYtNy4yIDE2LTE2IDAtNC4yLTEuNy04LjMtNC43LTExLjNzLTctNC43LTExLjMtNC43Yy04LjggMC0xNiA3LjItMTUuOSAxNi4xIDAgMyAuOSA1LjkgMi40IDguNGwuNC42LTEuNiA1LjkgNi0xLjV6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTMyLjQgNi40QzI5IDIuOSAyNC4zIDEgMTkuNSAxIDkuMyAxIDEuMSA5LjMgMS4yIDE5LjRjMCAzLjIuOSA2LjMgMi40IDkuMUwxIDM4bDkuNy0yLjVjMi43IDEuNSA1LjcgMi4yIDguNyAyLjIgMTAuMSAwIDE4LjMtOC4zIDE4LjMtMTguNCAwLTQuOS0xLjktOS41LTUuMy0xMi45ek0xOS41IDM0LjZjLTIuNyAwLTUuNC0uNy03LjctMi4xbC0uNi0uMy01LjggMS41TDYuOSAyOGwtLjQtLjZjLTQuNC03LjEtMi4zLTE2LjUgNC45LTIwLjlzMTYuNS0yLjMgMjAuOSA0LjkgMi4zIDE2LjUtNC45IDIwLjljLTIuMyAxLjUtNS4xIDIuMy03LjkgMi4zem04LjgtMTEuMWwtMS4xLS41cy0xLjYtLjctMi42LTEuMmMtLjEgMC0uMi0uMS0uMy0uMS0uMyAwLS41LjEtLjcuMiAwIDAtLjEuMS0xLjUgMS43LS4xLjItLjMuMy0uNS4zaC0uMWMtLjEgMC0uMy0uMS0uNC0uMmwtLjUtLjJjLTEuMS0uNS0yLjEtMS4xLTIuOS0xLjktLjItLjItLjUtLjQtLjctLjYtLjctLjctMS40LTEuNS0xLjktMi40bC0uMS0uMmMtLjEtLjEtLjEtLjItLjItLjQgMC0uMiAwLS40LjEtLjUgMCAwIC40LS41LjctLjguMi0uMi4zLS41LjUtLjcuMi0uMy4zLS43LjItMS0uMS0uNS0xLjMtMy4yLTEuNi0zLjgtLjItLjMtLjQtLjQtLjctLjVoLTEuMWMtLjIgMC0uNC4xLS42LjFsLS4xLjFjLS4yLjEtLjQuMy0uNi40LS4yLjItLjMuNC0uNS42LS43LjktMS4xIDItMS4xIDMuMSAwIC44LjIgMS42LjUgMi4zbC4xLjNjLjkgMS45IDIuMSAzLjYgMy43IDUuMWwuNC40Yy4zLjMuNi41LjguOCAyLjEgMS44IDQuNSAzLjEgNy4yIDMuOC4zLjEuNy4xIDEgLjJoMWMuNSAwIDEuMS0uMiAxLjUtLjQuMy0uMi41LS4yLjctLjRsLjItLjJjLjItLjIuNC0uMy42LS41cy40LS40LjUtLjZjLjItLjQuMy0uOS40LTEuNHYtLjdzLS4xLS4xLS4zLS4yeiI+PC9wYXRoPjwvc3ZnPg==\">",
                                     "target": [
-                                        "div:nth-child(30) > a[target=\"blank\"] > img[title=\"Compre\\ pelo\\ WhatsApp\"][alt=\"Comprar\\ no\\ WhatsApp\"]"
+                                        "div:nth-child(29) > a[target=\"blank\"] > img[title=\"Compre\\ pelo\\ WhatsApp\"][alt=\"Comprar\\ no\\ WhatsApp\"]"
                                     ]
                                 }
                             ]

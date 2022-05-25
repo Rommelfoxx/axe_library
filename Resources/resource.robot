@@ -3,6 +3,9 @@
 Library    SeleniumLibrary
 Library    AxeLibrary
 
+*** Variables ***
+
+
 *** Keywords ***
 
 Abrir navegador
@@ -13,7 +16,12 @@ Fechar navegador
 
 avaliar a acessibilidade da pagina
     &{results} =   Run Accessibility Tests   riachuelo.json 
-    Log   Violations Count: ${results.violations}    
+    Log   Violations Count: ${results.violations}  
+    Set Global Variable    &{RESULTS}    &{results}
+      
     
     Log Readable Accessibility Result    violations
 
+o resultado deverá nao apresentar violações da acessibilidade
+    Should Be True    ${RESULTS.violations} < 1
+    
