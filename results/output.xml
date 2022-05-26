@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220518 16:31:00.296" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220526 07:17:36.295" rpa="false" schemaversion="3">
 <suite id="s1" name="Test-Case" source="C:\Users\4024962\OneDrive - Lojas Riachuelo S.A\Estudo\axe_library\test-case">
 <suite id="s1-s1" name="Avaliar Tela Home" source="C:\Users\4024962\OneDrive - Lojas Riachuelo S.A\Estudo\axe_library\test-case\avaliar_tela_home.robot">
 <kw name="Abrir navegador" library="resource" type="SETUP">
@@ -7,52 +7,52 @@
 <arg>url:blank</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220518 16:31:00.568" level="INFO">Opening browser 'chrome' to base url 'url:blank'.</msg>
-<status status="PASS" starttime="20220518 16:31:00.568" endtime="20220518 16:31:02.313"/>
+<msg timestamp="20220526 07:17:37.089" level="INFO">Opening browser 'chrome' to base url 'url:blank'.</msg>
+<status status="PASS" starttime="20220526 07:17:37.088" endtime="20220526 07:17:40.550"/>
 </kw>
-<status status="PASS" starttime="20220518 16:31:00.568" endtime="20220518 16:31:02.314"/>
+<status status="PASS" starttime="20220526 07:17:37.088" endtime="20220526 07:17:40.551"/>
 </kw>
 <test id="s1-s1-t1" name="Cenario 1 - Abrir e validar o site da Riachuelo" line="13">
 <kw name="que esteja na pagina home da riachuelo" library="home">
 <kw name="Go To" library="SeleniumLibrary">
 <arg>https://www.riachuelo.com.br/</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<msg timestamp="20220518 16:31:02.318" level="INFO">Opening url 'https://www.riachuelo.com.br/'</msg>
-<status status="PASS" starttime="20220518 16:31:02.316" endtime="20220518 16:31:07.591"/>
+<msg timestamp="20220526 07:17:40.555" level="INFO">Opening url 'https://www.riachuelo.com.br/'</msg>
+<status status="PASS" starttime="20220526 07:17:40.553" endtime="20220526 07:17:44.051"/>
 </kw>
 <kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
 <arg>5</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" starttime="20220518 16:31:07.591" endtime="20220518 16:31:07.592"/>
+<status status="PASS" starttime="20220526 07:17:44.051" endtime="20220526 07:17:44.055"/>
 </kw>
-<status status="PASS" starttime="20220518 16:31:02.316" endtime="20220518 16:31:07.592"/>
+<status status="PASS" starttime="20220526 07:17:40.553" endtime="20220526 07:17:44.055"/>
 </kw>
 <kw name="avaliar a acessibilidade da pagina" library="resource">
 <kw name="Run Accessibility Tests" library="AxeLibrary">
 <var>&amp;{results}</var>
 <arg>riachuelo.json</arg>
 <doc>Executes accessibility tests in current page by injecting axe-core javascript and write results into `result_file` (json). Return result statisitics</doc>
-<msg timestamp="20220518 16:31:08.269" level="INFO">{'inapplicable': 26, 'incomplete': 1, 'passes': 37, 'violations': 7}</msg>
-<msg timestamp="20220518 16:31:08.270" level="INFO">&amp;{results} = { inapplicable=26 | incomplete=1 | passes=37 | violations=7 }</msg>
-<status status="PASS" starttime="20220518 16:31:07.594" endtime="20220518 16:31:08.270"/>
+<msg timestamp="20220526 07:17:45.861" level="INFO">{'inapplicable': 26, 'incomplete': 1, 'passes': 38, 'violations': 7}</msg>
+<msg timestamp="20220526 07:17:45.861" level="INFO">&amp;{results} = { inapplicable=26 | incomplete=1 | passes=38 | violations=7 }</msg>
+<status status="PASS" starttime="20220526 07:17:44.056" endtime="20220526 07:17:45.862"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Violations Count: ${results.violations}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220518 16:31:08.271" level="INFO">Violations Count: 7</msg>
-<status status="PASS" starttime="20220518 16:31:08.270" endtime="20220518 16:31:08.271"/>
+<msg timestamp="20220526 07:17:45.863" level="INFO">Violations Count: 7</msg>
+<status status="PASS" starttime="20220526 07:17:45.862" endtime="20220526 07:17:45.863"/>
 </kw>
 <kw name="Set Global Variable" library="BuiltIn">
 <arg>&amp;{RESULTS}</arg>
 <arg>&amp;{results}</arg>
 <doc>Makes a variable available globally in all tests and suites.</doc>
-<msg timestamp="20220518 16:31:08.272" level="INFO">&amp;{RESULTS} = { inapplicable=26 | incomplete=1 | passes=37 | violations=7 }</msg>
-<status status="PASS" starttime="20220518 16:31:08.271" endtime="20220518 16:31:08.272"/>
+<msg timestamp="20220526 07:17:45.864" level="INFO">&amp;{RESULTS} = { inapplicable=26 | incomplete=1 | passes=38 | violations=7 }</msg>
+<status status="PASS" starttime="20220526 07:17:45.863" endtime="20220526 07:17:45.864"/>
 </kw>
 <kw name="Log Readable Accessibility Result" library="AxeLibrary">
 <arg>violations</arg>
 <doc>Inserts readable accessibility result into `log.html` based on given `type`. Need to be used after `Run Accessibility Tests` keyword</doc>
-<msg timestamp="20220518 16:31:08.272" level="INFO" html="true">
+<msg timestamp="20220526 07:17:45.865" level="INFO" html="true">
                 &lt;style&gt;
                     #demo table, #demo th, #demo td{
                         border: 1px dotted black;
@@ -79,42 +79,46 @@
                         &lt;th style="text-align:left"&gt;Element Affected&lt;/th&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
-                        &lt;td&gt;1) Target: .jss62
+                        &lt;td&gt;1) Target: .jss70
 		role link  is not allowed for given element
-	2) Target: .jss63
+	2) Target: .jss71
 		role link  is not allowed for given element
-	3) Target: .jss64
+	3) Target: .jss72
 		role link  is not allowed for given element
-	4) Target: .jss65
+	4) Target: .jss73
 		role link  is not allowed for given element
-	5) Target: .jss66
+	5) Target: .jss74
 		role link  is not allowed for given element
-	6) Target: .jss67
+	6) Target: .jss75
 		role link  is not allowed for given element
-	7) Target: .jss68
+	7) Target: .jss76
 		role link  is not allowed for given element
-	8) Target: .jss69
+	8) Target: .jss77
 		role link  is not allowed for given element
-	9) Target: .jss70
+	9) Target: .jss78
 		role link  is not allowed for given element
-	10) Target: .jss71
+	10) Target: .jss79
 		role link  is not allowed for given element
-	11) Target: .jss72
+	11) Target: .jss80
 		role link  is not allowed for given element
-	12) Target: .jss73
+	12) Target: .jss81
 		role link  is not allowed for given element
-	13) Target: .MuiList-root
+	13) Target: .owl-prev
+		role presentation  is not allowed for given element
+	14) Target: .owl-next
+		role presentation  is not allowed for given element
+	15) Target: .MuiList-root
 		role navigation  is not allowed for given element
-	14) Target: .jss169[href$="novidades"][role="link"]
+	16) Target: .jss177[href$="novidades"][role="link"]
 		role link  is not allowed for given element
-	15) Target: .jss169[href$="geek"][role="link"]
+	17) Target: .jss177[href$="geek"][role="link"]
 		role link  is not allowed for given element
-	16) Target: .jss169[href$="outlet"][role="link"]
+	18) Target: .jss177[href$="outlet"][role="link"]
 		role link  is not allowed for given element&lt;/td&gt;
                     &lt;/tr&gt;
                 &lt;/table&gt;
                 </msg>
-<msg timestamp="20220518 16:31:08.272" level="INFO" html="true">
+<msg timestamp="20220526 07:17:45.865" level="INFO" html="true">
                 &lt;style&gt;
                     #demo table, #demo th, #demo td{
                         border: 1px dotted black;
@@ -143,9 +147,9 @@
                     &lt;tr&gt;
                         &lt;td&gt;1) Target: .genos--c-hwsXVO
 		Invalid ARIA attribute value: aria-controls="radix-0"
-	2) Target: .jss138 &gt; ul &gt; .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-true:nth-child(1) &gt; figure &gt; .jss140[rel="noopener\ noreferer"][target="_blank"]
+	2) Target: .jss146 &gt; ul &gt; .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-true.MuiGrid-item:nth-child(1) &gt; figure &gt; .jss148[rel="noopener\ noreferer"][target="_blank"]
 		Invalid ARIA attribute value: aria-labelledby="O aplicativo da Riachuelo está disponível no Google Play"
-	3) Target: .jss138 &gt; ul &gt; .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-true:nth-child(2) &gt; figure &gt; .jss140[rel="noopener\ noreferer"][target="_blank"]
+	3) Target: .jss146 &gt; ul &gt; .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-true.MuiGrid-item:nth-child(2) &gt; figure &gt; .jss148[rel="noopener\ noreferer"][target="_blank"]
 		Invalid ARIA attribute value: aria-labelledby="O aplicativo da Riachuelo está disponível no Apple Store"
 	4) Target: div[aria-controls="Cartão\ Riachuelo"]
 		Invalid ARIA attribute value: aria-controls="Cartão Riachuelo"
@@ -168,20 +172,20 @@
 RCHLO"
 	13) Target: a[aria-labelledby="Pinterest\ da\ Riachuelo"]
 		Invalid ARIA attribute value: aria-labelledby="Pinterest da Riachuelo"
-	14) Target: .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-true:nth-child(5) &gt; figure &gt; a[href$="riachuelo"]
+	14) Target: .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-true.MuiGrid-item:nth-child(5) &gt; figure &gt; a[href$="riachuelo"]
 		Invalid ARIA attribute value: aria-labelledby="Twitter da Riachuelo"
 	15) Target: a[aria-labelledby="Canal\ da\ Riachuelo\ no\ YouTube"]
 		Invalid ARIA attribute value: aria-labelledby="Canal da Riachuelo no YouTube"
 	16) Target: a[aria-labelledby="LinkedIn\ da\ Riachuelo"]
 		Invalid ARIA attribute value: aria-labelledby="LinkedIn da Riachuelo"
-	17) Target: .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-12:nth-child(1) &gt; figure &gt; .jss140[rel="noopener\ noreferer"][target="_blank"]
+	17) Target: .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-12.MuiGrid-item:nth-child(1) &gt; figure &gt; .jss148[rel="noopener\ noreferer"][target="_blank"]
 		Invalid ARIA attribute value: aria-labelledby="Conheça a Acessibilidade Riachuelo"
 	18) Target: a[aria-labelledby="Selo\ RA1000"]
 		Invalid ARIA attribute value: aria-labelledby="Selo RA1000"&lt;/td&gt;
                     &lt;/tr&gt;
                 &lt;/table&gt;
                 </msg>
-<msg timestamp="20220518 16:31:08.272" level="INFO" html="true">
+<msg timestamp="20220526 07:17:45.865" level="INFO" html="true">
                 &lt;style&gt;
                     #demo table, #demo th, #demo td{
                         border: 1px dotted black;
@@ -208,7 +212,7 @@ RCHLO"
                         &lt;th style="text-align:left"&gt;Element Affected&lt;/th&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
-                        &lt;td&gt;1) Target: .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-12:nth-child(2) &gt; button[type="button"]
+                        &lt;td&gt;1) Target: .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-12.MuiGrid-item:nth-child(2) &gt; button[type="button"]
 		Element has a value attribute and the value attribute is empty
 		Element has no value attribute or the value attribute is empty
 		Element does not have inner text that is visible to screen readers
@@ -221,7 +225,7 @@ RCHLO"
                     &lt;/tr&gt;
                 &lt;/table&gt;
                 </msg>
-<msg timestamp="20220518 16:31:08.273" level="INFO" html="true">
+<msg timestamp="20220526 07:17:45.865" level="INFO" html="true">
                 &lt;style&gt;
                     #demo table, #demo th, #demo td{
                         border: 1px dotted black;
@@ -237,10 +241,10 @@ RCHLO"
                         &lt;th style="width:10%"&gt;Tags&lt;/th&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
-                        &lt;td&gt;duplicate-id-active - Ensures every id attribute value of active elements is unique&lt;/td&gt;
-                        &lt;td style="text-align:center"&gt;&lt;a href="https://dequeuniversity.com/rules/axe/3.1/duplicate-id-active?application=axeAPI"&gt;Link&lt;/a&gt;&lt;/td&gt;
+                        &lt;td&gt;color-contrast - Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds&lt;/td&gt;
+                        &lt;td style="text-align:center"&gt;&lt;a href="https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI"&gt;Link&lt;/a&gt;&lt;/td&gt;
                         &lt;td style="text-align:center"&gt;serious&lt;/td&gt;
-                        &lt;td style="text-align:center"&gt;cat.parsing wcag2a wcag411&lt;/td&gt;
+                        &lt;td style="text-align:center"&gt;cat.color wcag2aa wcag143&lt;/td&gt;
                     &lt;/tr&gt;
                 &lt;/table&gt;
                 &lt;table id="demodesc" style="width:100%"&gt;
@@ -248,12 +252,52 @@ RCHLO"
                         &lt;th style="text-align:left"&gt;Element Affected&lt;/th&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
-                        &lt;td&gt;1) Target: div:nth-child(23) &gt; a[target="blank"]
-		Document has active elements with the same id attribute: whatsapp-chat-open-iframe&lt;/td&gt;
+                        &lt;td&gt;1) Target: .active &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p
+		Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+	2) Target: .active &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; spam:nth-child(1) &gt; b
+		Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+	3) Target: .active &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; spam:nth-child(2) &gt; b
+		Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+	4) Target: .active &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; spam:nth-child(3) &gt; b
+		Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+	5) Target: .active &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; a
+		Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+	6) Target: .cloned.owl-item:nth-child(4) &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p
+		Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+	7) Target: .cloned.owl-item:nth-child(4) &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; spam:nth-child(1) &gt; b
+		Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+	8) Target: .cloned.owl-item:nth-child(4) &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; spam:nth-child(2) &gt; b
+		Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+	9) Target: .cloned.owl-item:nth-child(4) &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; spam:nth-child(3) &gt; b
+		Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+	10) Target: .cloned.owl-item:nth-child(4) &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; a
+		Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+	11) Target: .cloned.owl-item:nth-child(5) &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p
+		Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+	12) Target: .cloned.owl-item:nth-child(5) &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; spam:nth-child(1) &gt; b
+		Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+	13) Target: .cloned.owl-item:nth-child(5) &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; spam:nth-child(2) &gt; b
+		Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+	14) Target: .cloned.owl-item:nth-child(5) &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; spam:nth-child(3) &gt; b
+		Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+	15) Target: .cloned.owl-item:nth-child(5) &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; a
+		Element has insufficient color contrast of 3.74 (foreground color: #727272, background color: #e3e3e3, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+	16) Target: .destaque-verde:nth-child(2)
+		Element has insufficient color contrast of 2.99 (foreground color: #209630, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+	17) Target: .destaque-verde:nth-child(3)
+		Element has insufficient color contrast of 2.99 (foreground color: #209630, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+	18) Target: .cartao-rchlo &gt; p &gt; .destaque-verde
+		Element has insufficient color contrast of 2.99 (foreground color: #209630, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+	19) Target: a[title="Ir\ para\ Promoção"] &gt; spam &gt; b
+		Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+	20) Target: .troca-gratis &gt; p &gt; spam &gt; b
+		Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+	21) Target: a[title="Abrir\ whatsapp"] &gt; spam &gt; b
+		Element has insufficient color contrast of 2.73 (foreground color: #0d9f0b, background color: #e3e3e3, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1&lt;/td&gt;
                     &lt;/tr&gt;
                 &lt;/table&gt;
                 </msg>
-<msg timestamp="20220518 16:31:08.273" level="INFO" html="true">
+<msg timestamp="20220526 07:17:45.866" level="INFO" html="true">
                 &lt;style&gt;
                     #demo table, #demo th, #demo td{
                         border: 1px dotted black;
@@ -280,16 +324,12 @@ RCHLO"
                         &lt;th style="text-align:left"&gt;Element Affected&lt;/th&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
-                        &lt;td&gt;1) Target: div:nth-child(23)
-		Document has multiple static elements with the same id attribute
-	2) Target: div:nth-child(23) &gt; a[target="blank"] &gt; div
-		Document has multiple static elements with the same id attribute
-	3) Target: div:nth-child(23) &gt; a[target="blank"] &gt; img[title="Compre\ pelo\ WhatsApp"][alt="Comprar\ no\ WhatsApp"]
+                        &lt;td&gt;1) Target: .cloned.owl-item:nth-child(1) &gt; .f-bg-faixa.f-bg-faixa-2 &gt; p &gt; spam:nth-child(1)
 		Document has multiple static elements with the same id attribute&lt;/td&gt;
                     &lt;/tr&gt;
                 &lt;/table&gt;
                 </msg>
-<msg timestamp="20220518 16:31:08.273" level="INFO" html="true">
+<msg timestamp="20220526 07:17:45.866" level="INFO" html="true">
                 &lt;style&gt;
                     #demo table, #demo th, #demo td{
                         border: 1px dotted black;
@@ -316,14 +356,14 @@ RCHLO"
                         &lt;th style="text-align:left"&gt;Element Affected&lt;/th&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
-                        &lt;td&gt;1) Target: .jss138 &gt; ul &gt; .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-true:nth-child(1) &gt; figure &gt; .jss140[rel="noopener\ noreferer"][target="_blank"]
+                        &lt;td&gt;1) Target: .jss146 &gt; ul &gt; .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-true.MuiGrid-item:nth-child(1) &gt; figure &gt; .jss148[rel="noopener\ noreferer"][target="_blank"]
 		Element does not have text that is visible to screen readers
 		aria-label attribute does not exist or is empty
 		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
 		Element's default semantics were not overridden with role="presentation"
 		Element's default semantics were not overridden with role="none"
 		Element is in tab order and does not have accessible text
-	2) Target: .jss138 &gt; ul &gt; .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-true:nth-child(2) &gt; figure &gt; .jss140[rel="noopener\ noreferer"][target="_blank"]
+	2) Target: .jss146 &gt; ul &gt; .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-true.MuiGrid-item:nth-child(2) &gt; figure &gt; .jss148[rel="noopener\ noreferer"][target="_blank"]
 		Element does not have text that is visible to screen readers
 		aria-label attribute does not exist or is empty
 		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
@@ -358,7 +398,7 @@ RCHLO"
 		Element's default semantics were not overridden with role="presentation"
 		Element's default semantics were not overridden with role="none"
 		Element is in tab order and does not have accessible text
-	7) Target: .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-true:nth-child(5) &gt; figure &gt; a[href$="riachuelo"]
+	7) Target: .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-true.MuiGrid-item:nth-child(5) &gt; figure &gt; a[href$="riachuelo"]
 		Element does not have text that is visible to screen readers
 		aria-label attribute does not exist or is empty
 		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
@@ -379,7 +419,7 @@ RCHLO"
 		Element's default semantics were not overridden with role="presentation"
 		Element's default semantics were not overridden with role="none"
 		Element is in tab order and does not have accessible text
-	10) Target: .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-12:nth-child(1) &gt; figure &gt; .jss140[rel="noopener\ noreferer"][target="_blank"]
+	10) Target: .MuiGrid-grid-lg-auto.MuiGrid-grid-xs-12.MuiGrid-item:nth-child(1) &gt; figure &gt; .jss148[rel="noopener\ noreferer"][target="_blank"]
 		Element does not have text that is visible to screen readers
 		aria-label attribute does not exist or is empty
 		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
@@ -396,7 +436,7 @@ RCHLO"
                     &lt;/tr&gt;
                 &lt;/table&gt;
                 </msg>
-<msg timestamp="20220518 16:31:08.273" level="INFO" html="true">
+<msg timestamp="20220526 07:17:45.867" level="INFO" html="true">
                 &lt;style&gt;
                     #demo table, #demo th, #demo td{
                         border: 1px dotted black;
@@ -428,31 +468,31 @@ RCHLO"
                     &lt;/tr&gt;
                 &lt;/table&gt;
                 </msg>
-<status status="PASS" starttime="20220518 16:31:08.272" endtime="20220518 16:31:08.273"/>
+<status status="PASS" starttime="20220526 07:17:45.865" endtime="20220526 07:17:45.867"/>
 </kw>
-<status status="PASS" starttime="20220518 16:31:07.594" endtime="20220518 16:31:08.273"/>
+<status status="PASS" starttime="20220526 07:17:44.056" endtime="20220526 07:17:45.867"/>
 </kw>
-<kw name="resultado deverá nao apresentar problemas de acessibilidade" library="resource">
+<kw name="o resultado deverá nao apresentar problemas de acessibilidade" library="resource">
 <kw name="Should Be True" library="BuiltIn">
 <arg>${RESULTS.violations} &lt; 1</arg>
 <doc>Fails if the given condition is not true.</doc>
-<msg timestamp="20220518 16:31:08.275" level="FAIL">'7 &lt; 1' should be true.</msg>
-<status status="FAIL" starttime="20220518 16:31:08.274" endtime="20220518 16:31:08.275"/>
+<msg timestamp="20220526 07:17:45.872" level="FAIL">'7 &lt; 1' should be true.</msg>
+<status status="FAIL" starttime="20220526 07:17:45.870" endtime="20220526 07:17:45.872"/>
 </kw>
-<status status="FAIL" starttime="20220518 16:31:08.274" endtime="20220518 16:31:08.276"/>
+<status status="FAIL" starttime="20220526 07:17:45.869" endtime="20220526 07:17:45.873"/>
 </kw>
-<status status="FAIL" starttime="20220518 16:31:02.314" endtime="20220518 16:31:08.277">'7 &lt; 1' should be true.</status>
+<status status="FAIL" starttime="20220526 07:17:40.551" endtime="20220526 07:17:45.875">'7 &lt; 1' should be true.</status>
 </test>
 <kw name="Fechar navegador" library="resource" type="TEARDOWN">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20220518 16:31:08.279" endtime="20220518 16:31:10.587"/>
+<status status="PASS" starttime="20220526 07:17:45.882" endtime="20220526 07:17:48.414"/>
 </kw>
-<status status="PASS" starttime="20220518 16:31:08.279" endtime="20220518 16:31:10.588"/>
+<status status="PASS" starttime="20220526 07:17:45.881" endtime="20220526 07:17:48.415"/>
 </kw>
-<status status="FAIL" starttime="20220518 16:31:00.319" endtime="20220518 16:31:10.588"/>
+<status status="FAIL" starttime="20220526 07:17:36.341" endtime="20220526 07:17:48.415"/>
 </suite>
-<status status="FAIL" starttime="20220518 16:31:00.297" endtime="20220518 16:31:10.590"/>
+<status status="FAIL" starttime="20220526 07:17:36.298" endtime="20220526 07:17:48.419"/>
 </suite>
 <statistics>
 <total>

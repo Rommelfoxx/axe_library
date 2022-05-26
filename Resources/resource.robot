@@ -22,6 +22,6 @@ avaliar a acessibilidade da pagina
     
     Log Readable Accessibility Result    violations
 
-o resultado deverá nao apresentar violações da acessibilidade
+o resultado deverá nao apresentar problemas de acessibilidade
     Should Be True    ${RESULTS.violations} < 1
     
