@@ -38,7 +38,7 @@ Para a execução devemos executar na pasta do projeto o seguinte comando
 ### Robot -d results test-case 
 
 ## Autor
-Bem meu nome é Vanderlan Alves. tenho uma paixão pela area de qualidade e acredito que devemos propagar a cultura da qualidade para todas as pessoas. Caso você compartilha deste pensamento me procure. Bora contruir um mundo com mais qualidade !!
+Bem meu nome é Vanderlan Alves. tenho uma paixão pela area de qualidade e acredito que devemos propagar a cultura da qualidade para todas as pessoas. Caso você compartilha deste pensamento me procure. Bora contruir um mundo com mais qualidade ❤❤❤!!
 <p>https://linkedin.com/in/vanderlan-alves-mba-ctal-tm-asf-0a76b422<p/>
 <p>https://medium.com/@vanderlan-alves-filho</p>
 
